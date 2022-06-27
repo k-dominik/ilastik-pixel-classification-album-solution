@@ -1,0 +1,11 @@
+name: ilastik
+channels:
+  - pytorch
+  - ilastik-forge
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python 3.7.*
+  - ilastik 1.4.0b29
+  - pytorch 1.9.*
+  - mkl <=2021.4.0  # [osx and arm64]
